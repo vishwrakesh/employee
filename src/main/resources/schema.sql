@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS EMPLOYEES;
+
+CREATE TABLE EMPLOYEES (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  employee_name VARCHAR(250) NOT NULL,
+  profile_image VARCHAR(250) NOT NULL,
+  employee_salary NUMBER (8),
+  employee_age NUMBER (3)
+);
